@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+	/*---pricing area---*/
+	.pricing-rows .pricing-cell {
+	    height: 70px;
+	}
+	.pricing-feature-box {
+	    height: 200px;
+	    min-height: 200px;
+	}
+	.pricing-action-btn a {
+	    line-height: inherit;
+	}
+}
+
+@media (max-width: 600px) {
+	/*---pricing area---*/
+	.mobile-pricing-wrapper .pricing-column {
+		width: 50%;
+	}
+	.mobile-pricing-wrapper {
+		padding: 0 15px;
+	}
+}
+
+@media (max-width: 320px) {
+	/*---pricing area---*/
+	.pricing-feature-box {
+	    height: 255px;
+	    min-height: 255px;
+	}
+	.pricing-col-1 .pricing-feature-box p:first-child {
+    	font-size: 40px;
+	}
+	
+	.pricing-footer {
+		padding: 15px;
+	}
+
+	.pricing-action-btn {
+		padding: 5px;
+	}
+
+	.pricing-action-btn a {
+		word-break: break-word;
+	}
+}
