@@ -28,7 +28,7 @@
     border-bottom-right-radius: 5px;
 }
 .pricing-column-hover:hover .pricing-feature-box {
-    height: calc(168px + 3vh);
+    /*height: calc(168px + 3vh);*/
     transition: all 0.3s ease-in-out;
 }
 
